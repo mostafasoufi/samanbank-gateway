@@ -1,0 +1,24 @@
+{
+    "name": "mostafasoufi/saman-gateway",
+    "description": "Saman Gateway PHP Class",
+    "keywords": ["template", "composer", "package"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Mostafa Soufi",
+            "email": "mostafa.soufi@hotmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.6"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Saman\\Gateway\\": "src/"
+        }
+    }
+}
